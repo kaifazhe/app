@@ -7,4 +7,5 @@
  */
 define("APP_NAME","home");
 define("APP_PATH","Home/");
+define("APP_DEBUG",TRUE);
 require 'ThinkPHP/ThinkPHP.php';
