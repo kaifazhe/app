@@ -19,6 +19,9 @@ class IndexAction extends Action {
                 "sex"=>1
             )
         );
+        unset($arr);
+        $m = M("adma");
+       $arr =  $m->select();
         $this->assign("arr",$arr);
         $this->display();
     }
