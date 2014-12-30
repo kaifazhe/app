@@ -25,4 +25,8 @@ class IndexAction extends Action {
         $this->assign("arr",$arr);
         $this->display();
     }
+    public function test(){
+        $this->test="test";
+        $this->display("User:index");
+    }
 }
