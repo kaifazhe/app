@@ -29,4 +29,7 @@ class IndexAction extends Action {
         $this->test="test";
         $this->display("User:index");
     }
+    public function se(){
+        $this->display("Hh:User:hello.html");
+    }
 }
